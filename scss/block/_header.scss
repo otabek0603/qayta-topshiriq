@@ -1,0 +1,68 @@
+// - - - - HEADER - - - -
+
+.header {
+    background-color: #014E56;
+    padding-top: 73px;
+    padding-bottom: 133px;
+
+    &__hero {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__left {
+        display: flex;
+        align-items: center;
+    }
+
+    &__link-img{
+        margin-right: 80px;
+
+    }
+
+    &__list {
+        display: flex;
+        list-style-type: none;
+        gap: 40px;
+        align-items: center;
+    }
+
+    &__item-link {
+        text-decoration: none;
+        font-family: 'Livvic';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+
+        &:hover{
+            color: #F67E7E;
+        }
+    }
+
+    &__span-hero{
+        display: none;
+    }
+
+    &__button {
+        background-color: #014E56;
+        border: none;
+        padding: 9px 33px 11px 32px;
+        font-family: 'Livvic';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+        border: 2px solid #FFFFFF;
+        border-radius: 24px;
+
+        &:hover{
+            background: #FFFFFF;
+            border: 2px solid #FFFFFF;
+            border-radius: 24px;
+            color: #002529;;
+        }
+    }
+}
